@@ -102,7 +102,13 @@ header nav a {
 }
 
 .top-content .text-container {
-    width: 48%;
+    width: 45%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
+.top-content .text-container-about-page {
+    width: 95%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
@@ -245,7 +251,6 @@ header nav a {
     justify-content: center;
 }
 
-
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -257,6 +262,20 @@ header nav a {
 }
 
 .bottom-content .text-container:last-child {
+    padding-right: 0;
+}
+
+.bottom-content-about-page {
+    display: flex;
+    margin: 40px 2% 40px;
+    justify-content: space-around;
+}
+
+.bottom-content-about-page .text-container-about-page {
+    padding-right: 4%;
+}
+
+.bottom-content-about-page .text-container-about-page:last-child {
     padding-right: 0;
 }
 
@@ -277,4 +296,23 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* .middle-content-about-page {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.middle-content-about-page .boxes-about-page {
+    display: block;
+} */
+
+
+.middle-content .boxes .box {
+    width: 45%;
+    height: 400px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px dashed black;
 }
